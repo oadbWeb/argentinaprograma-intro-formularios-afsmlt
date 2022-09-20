@@ -55,7 +55,8 @@
   </div>
   <br />
   <div>
-    <button type="submit">Iniciar Sesión</button>
+    <!--Boton deshabilitado: [disabled]="!form.valid"-->
+    <button type="submit"[disabled]="!form.valid">Iniciar Sesión</button>
   </div>
 </form>
 
